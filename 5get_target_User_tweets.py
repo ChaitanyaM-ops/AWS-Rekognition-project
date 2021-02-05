@@ -27,7 +27,7 @@ from pyspark.sql.functions import udf, col, lower, regexp_replace
 from pyspark.ml.feature import Tokenizer, StopWordsRemover
 
 # Bearer Token for Twitter API
-bearer_token = ""
+bearer_token = "AAAAAAAAAAAAAAAAAAAAAE9GIwEAAAAA3QrOBU3z5%2BWYt4M%2FJyHJjcpeRfg%3DdLsH6iXulCBHEjYbD59iMyHNLU9oqDuj0fWceP3lpbLl2lXi9y"
 
 # Connection to AWS RedShift. Schema for the connection engine is "postgresql+psycopg2://<username>:<cluster_url>:<port>/<cluster>"
 redshift_conn = create_engine(
